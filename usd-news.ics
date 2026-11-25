@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sharvin0345//USD News for Gold//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:USD News for Gold (MYT)
+X-WR-CALDESC:High-impact USD releases in Malaysia time. Alert 30 minutes be
+ fore. Not financial advice.
+X-WR-TIMEZONE:Asia/Kuala_Lumpur
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Kuala_Lumpur
+X-LIC-LOCATION:Asia/Kuala_Lumpur
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:MYT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:usd-20261125-4872d81fb11e8423@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261125T213000
+DTEND;TZID=Asia/Kuala_Lumpur:20261125T214500
+SUMMARY:USD: Core PCE Price Index m/m
+DESCRIPTION:Time: 9:30 PM Malaysia time\nImpact: High\nForecast: 0.3%\nPrev
+ ious: 0.3%\nWhat it means for gold: Hotter inflation usually lifts the dol
+ lar and pushes gold down. A cooler print can support gold.\nNo new trades 
+ 15-30 minutes before or after this release. Not financial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: Core PCE Price Index m/m
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261125-f2b7dfe9bf16c6e9@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261125T213000
+DTEND;TZID=Asia/Kuala_Lumpur:20261125T214500
+SUMMARY:USD: Prelim GDP q/q
+DESCRIPTION:Time: 9:30 PM Malaysia time\nImpact: High\nForecast: 3.5%\nPrev
+ ious: 3.4%\nWhat it means for gold: Stronger growth usually lifts the doll
+ ar and pushes gold down. Weaker growth can support gold.\nNo new trades 15
+ -30 minutes before or after this release. Not financial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: Prelim GDP q/q
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261201-488dc9d900d6781f@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261201T230000
+DTEND;TZID=Asia/Kuala_Lumpur:20261201T231500
+SUMMARY:USD: ISM Manufacturing PMI
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 55.2\nPre
+ vious: 55.5\nWhat it means for gold: A stronger reading usually lifts the 
+ dollar and pushes gold down. A weaker reading can support gold.\nNo new tr
+ ades 15-30 minutes before or after this release. Not financial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: ISM Manufacturing PMI
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261201-3339238a573cd85b@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261201T230000
+DTEND;TZID=Asia/Kuala_Lumpur:20261201T231500
+SUMMARY:USD: JOLTs Job Openings
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: n/a\nPrev
+ ious: 7.523\nWhat it means for gold: Stronger-than-forecast USD data usual
+ ly lifts the dollar and pushes gold down. Weaker data usually does the opp
+ osite.\nNo new trades 15-30 minutes before or after this release. Not fina
+ ncial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: JOLTs Job Openings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261203-15cad2f136927846@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261203T230000
+DTEND;TZID=Asia/Kuala_Lumpur:20261203T231500
+SUMMARY:USD: ISM Services PMI
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 54.5\nPre
+ vious: 54.5\nWhat it means for gold: A stronger reading usually lifts the 
+ dollar and pushes gold down. A weaker reading can support gold.\nNo new tr
+ ades 15-30 minutes before or after this release. Not financial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: ISM Services PMI
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261204-ec00d7588061fffa@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261204T213000
+DTEND;TZID=Asia/Kuala_Lumpur:20261204T214500
+SUMMARY:USD: Non Farm Payrolls
+DESCRIPTION:Time: 9:30 PM Malaysia time\nImpact: High\nForecast: 90K\nPrevi
+ ous: 165K\nWhat it means for gold: More jobs than forecast usually strengt
+ hens the dollar and pushes gold down. A weak jobs number can lift gold.\nN
+ o new trades 15-30 minutes before or after this release. Not financial adv
+ ice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: Non Farm Payrolls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261204-2c627c40a4839c1c@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261204T213000
+DTEND;TZID=Asia/Kuala_Lumpur:20261204T214500
+SUMMARY:USD: Unemployment Rate
+DESCRIPTION:Time: 9:30 PM Malaysia time\nImpact: High\nForecast: 4.1%\nPrev
+ ious: 4.1%\nWhat it means for gold: A higher unemployment rate usually wea
+ kens the dollar and can lift gold. A lower rate usually pushes gold down.\
+ nNo new trades 15-30 minutes before or after this release. Not financial a
+ dvice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: Unemployment Rate
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usd-20261204-73241956ddb138ab@sharvin0345.github.io
+DTSTAMP:20261125T134519Z
+DTSTART;TZID=Asia/Kuala_Lumpur:20261204T230000
+DTEND;TZID=Asia/Kuala_Lumpur:20261204T231500
+SUMMARY:USD: Michigan Consumer Sentiment Prel
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 51.8\nPre
+ vious: 51\nWhat it means for gold: A stronger reading usually lifts the do
+ llar and pushes gold down. A weaker reading can support gold.\nNo new trad
+ es 15-30 minutes before or after this release. Not financial advice.
+LOCATION:Malaysia time
+URL:https://sharvin0345.github.io/usd-news-calendar-/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:USD news in 30 minutes: Michigan Consumer Sentiment Prel
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

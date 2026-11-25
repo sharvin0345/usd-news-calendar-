@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-25T13:45:19Z",
+  "timezone": "Asia/Kuala_Lumpur",
+  "window": {
+    "start": "2026-11-22",
+    "end": "2026-12-05"
+  },
+  "notice": "This week is from Forex Factory. Next week is from TradingView, because Forex Factory's free file only covers the current week.",
+  "sources": [
+    {
+      "name": "Forex Factory this week",
+      "url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "Forex Factory next week",
+      "url": "https://nfs.faireconomy.media/ff_calendar_nextweek.json",
+      "ok": false,
+      "error": "HTTP 404"
+    },
+    {
+      "name": "TradingView",
+      "url": "https://economic-calendar.tradingview.com/events?from=2026-11-20T16:00:00.000Z&to=2026-12-06T16:00:00.000Z&countries=US",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "events": [
+    {
+      "id": "usd-20261123-7de2b42ffa0c4c22@sharvin0345.github.io",
+      "title": "Flash Manufacturing PMI",
+      "impact": "Medium",
+      "forecast": "54.5",
+      "previous": "56.0",
+      "startsAt": "2026-11-23T14:45:00Z",
+      "dateKey": "2026-11-23",
+      "timeMyt": "10:45 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261123-2ffc59af59474e60@sharvin0345.github.io",
+      "title": "Flash Services PMI",
+      "impact": "Medium",
+      "forecast": "55.6",
+      "previous": "57.9",
+      "startsAt": "2026-11-23T14:45:00Z",
+      "dateKey": "2026-11-23",
+      "timeMyt": "10:45 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261124-0897ea3ee0f4eb54@sharvin0345.github.io",
+      "title": "CB Consumer Confidence",
+      "impact": "Medium",
+      "forecast": "92.4",
+      "previous": "91.7",
+      "startsAt": "2026-11-24T15:00:00Z",
+      "dateKey": "2026-11-24",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261125-4872d81fb11e8423@sharvin0345.github.io",
+      "title": "Core PCE Price Index m/m",
+      "impact": "High",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "startsAt": "2026-11-25T13:30:00Z",
+      "dateKey": "2026-11-25",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "Hotter inflation usually lifts the dollar and pushes gold down. A cooler print can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261125-361dcd58a5ee44a3@sharvin0345.github.io",
+      "title": "Prelim GDP Price Index q/q",
+      "impact": "Medium",
+      "forecast": "2.3%",
+      "previous": "2.3%",
+      "startsAt": "2026-11-25T13:30:00Z",
+      "dateKey": "2026-11-25",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "Hotter inflation usually lifts the dollar and pushes gold down. A cooler print can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261125-f2b7dfe9bf16c6e9@sharvin0345.github.io",
+      "title": "Prelim GDP q/q",
+      "impact": "High",
+      "forecast": "3.5%",
+      "previous": "3.4%",
+      "startsAt": "2026-11-25T13:30:00Z",
+      "dateKey": "2026-11-25",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "Stronger growth usually lifts the dollar and pushes gold down. Weaker growth can support gold.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261126-3ae1f10547d73af0@sharvin0345.github.io",
+      "title": "Bank Holiday",
+      "impact": "Holiday",
+      "forecast": null,
+      "previous": null,
+      "startsAt": "2026-11-26T13:00:00Z",
+      "dateKey": "2026-11-26",
+      "timeMyt": "9:00 PM",
+      "nearSessions": [],
+      "goldNote": "US holiday: liquidity is thin and spreads can be wide, so standing aside is the safer choice.",
+      "source": "Forex Factory"
+    },
+    {
+      "id": "usd-20261130-3999496656194ce9@sharvin0345.github.io",
+      "title": "Chicago PMI",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "55.3",
+      "startsAt": "2026-11-30T14:45:00Z",
+      "dateKey": "2026-11-30",
+      "timeMyt": "10:45 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261130-0e53a788563c13fe@sharvin0345.github.io",
+      "title": "Dallas Fed Manufacturing Index",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "13.4",
+      "startsAt": "2026-11-30T15:30:00Z",
+      "dateKey": "2026-11-30",
+      "timeMyt": "11:30 PM",
+      "nearSessions": [],
+      "goldNote": "Stronger-than-forecast USD data usually lifts the dollar and pushes gold down. Weaker data usually does the opposite.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261201-2f781521a2603586@sharvin0345.github.io",
+      "title": "ISM Manufacturing Employment",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "52.4",
+      "startsAt": "2026-12-01T15:00:00Z",
+      "dateKey": "2026-12-01",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261201-488dc9d900d6781f@sharvin0345.github.io",
+      "title": "ISM Manufacturing PMI",
+      "impact": "High",
+      "forecast": "55.2",
+      "previous": "55.5",
+      "startsAt": "2026-12-01T15:00:00Z",
+      "dateKey": "2026-12-01",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261201-3339238a573cd85b@sharvin0345.github.io",
+      "title": "JOLTs Job Openings",
+      "impact": "High",
+      "forecast": null,
+      "previous": "7.523",
+      "startsAt": "2026-12-01T15:00:00Z",
+      "dateKey": "2026-12-01",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "Stronger-than-forecast USD data usually lifts the dollar and pushes gold down. Weaker data usually does the opposite.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261202-7fe470fc47f32a88@sharvin0345.github.io",
+      "title": "ADP Employment Change",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "86K",
+      "startsAt": "2026-12-02T13:15:00Z",
+      "dateKey": "2026-12-02",
+      "timeMyt": "9:15 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "More jobs than forecast usually strengthens the dollar and pushes gold down. A weak jobs number can lift gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261203-5d52dc25f3b8602d@sharvin0345.github.io",
+      "title": "Initial Jobless Claims",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "189K",
+      "startsAt": "2026-12-03T13:30:00Z",
+      "dateKey": "2026-12-03",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "More people out of work usually weakens the dollar and can lift gold. Fewer claims usually push gold down.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261203-51a222734af43f20@sharvin0345.github.io",
+      "title": "Durable Goods Orders Ex Transp MoM Final",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "0.5%",
+      "startsAt": "2026-12-03T15:00:00Z",
+      "dateKey": "2026-12-03",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "Stronger-than-forecast USD data usually lifts the dollar and pushes gold down. Weaker data usually does the opposite.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261203-d715e4a652e81618@sharvin0345.github.io",
+      "title": "Factory Orders MoM",
+      "impact": "Medium",
+      "forecast": null,
+      "previous": "1.8%",
+      "startsAt": "2026-12-03T15:00:00Z",
+      "dateKey": "2026-12-03",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "Stronger-than-forecast USD data usually lifts the dollar and pushes gold down. Weaker data usually does the opposite.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261203-15cad2f136927846@sharvin0345.github.io",
+      "title": "ISM Services PMI",
+      "impact": "High",
+      "forecast": "54.5",
+      "previous": "54.5",
+      "startsAt": "2026-12-03T15:00:00Z",
+      "dateKey": "2026-12-03",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261204-3b47d15280340ebc@sharvin0345.github.io",
+      "title": "Average Hourly Earnings MoM",
+      "impact": "Medium",
+      "forecast": "0.3%",
+      "previous": "0.4%",
+      "startsAt": "2026-12-04T13:30:00Z",
+      "dateKey": "2026-12-04",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "Stronger-than-forecast USD data usually lifts the dollar and pushes gold down. Weaker data usually does the opposite.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261204-ec00d7588061fffa@sharvin0345.github.io",
+      "title": "Non Farm Payrolls",
+      "impact": "High",
+      "forecast": "90K",
+      "previous": "165K",
+      "startsAt": "2026-12-04T13:30:00Z",
+      "dateKey": "2026-12-04",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "More jobs than forecast usually strengthens the dollar and pushes gold down. A weak jobs number can lift gold.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261204-2c627c40a4839c1c@sharvin0345.github.io",
+      "title": "Unemployment Rate",
+      "impact": "High",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "startsAt": "2026-12-04T13:30:00Z",
+      "dateKey": "2026-12-04",
+      "timeMyt": "9:30 PM",
+      "nearSessions": [
+        "9:30 PM"
+      ],
+      "goldNote": "A higher unemployment rate usually weakens the dollar and can lift gold. A lower rate usually pushes gold down.",
+      "source": "TradingView"
+    },
+    {
+      "id": "usd-20261204-73241956ddb138ab@sharvin0345.github.io",
+      "title": "Michigan Consumer Sentiment Prel",
+      "impact": "High",
+      "forecast": "51.8",
+      "previous": "51",
+      "startsAt": "2026-12-04T15:00:00Z",
+      "dateKey": "2026-12-04",
+      "timeMyt": "11:00 PM",
+      "nearSessions": [],
+      "goldNote": "A stronger reading usually lifts the dollar and pushes gold down. A weaker reading can support gold.",
+      "source": "TradingView"
+    }
+  ]
+}

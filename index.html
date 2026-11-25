@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13110e">
+  <meta name="description" content="Upcoming high-impact USD economic releases in Malaysia time for a beginner gold trader, plus an iPhone calendar feed that alerts 30 minutes before each one.">
+  <meta property="og:title" content="USD news for gold">
+  <meta property="og:description" content="High-impact US economic releases in Malaysia time, with an iPhone alert 30 minutes before each one.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sharvin0345.github.io/usd-news-calendar-/">
+  <link rel="canonical" href="https://sharvin0345.github.io/usd-news-calendar-/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="text/calendar" title="USD news for gold" href="usd-news.ics">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>USD news for gold</title>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">XAUUSD · Malaysia</p>
+      <h1>USD news for gold</h1>
+      <p class="lede">High-impact US releases for this week and next, in Malaysia time (MYT, UTC+8). Stronger dollar data usually pushes gold down.</p>
+      <p class="clock" id="clock">Malaysia time</p>
+    </header>
+
+    <div class="controls">
+      <ul class="sessions">
+        <li><span class="dot" aria-hidden="true"></span> 3:30 PM session</li>
+        <li><span class="dot" aria-hidden="true"></span> 9:30 PM session</li>
+      </ul>
+      <button type="button" class="toggle" id="show-medium" aria-pressed="false">Show medium impact</button>
+      <p class="counts" id="counts"></p>
+    </div>
+    <p class="legend">Gold-edged cards land at, or within 30 minutes of, your 3:30 PM or 9:30 PM session. The list opens on high impact only.</p>
+
+    <p class="notice" id="notice" hidden></p>
+    <p class="status" id="status" role="status">Loading this week and next…</p>
+    <div id="days" aria-live="polite"></div>
+    <noscript>
+      <p class="status">Turn on JavaScript to see the event list. The iPhone calendar link below still works. Nothing on this page is guessed.</p>
+    </noscript>
+
+    <section class="panel" id="rules">
+      <h2>News trading rules</h2>
+      <ul class="rules">
+        <li>Do not open a new gold trade from 15 to 30 minutes before a high-impact USD number until 15 to 30 minutes after it.</li>
+        <li>Spreads widen when the number comes out. A stop that looked safe can get jumped.</li>
+        <li>Learn on a demo account, and use 0.01 lot.</li>
+        <li>This page is not financial advice. It is a clock and a reminder, not a signal to buy or sell gold.</li>
+      </ul>
+    </section>
+
+    <section class="panel" id="alerts">
+      <h2>Get alerts on iPhone</h2>
+      <p>The calendar feed has high-impact USD events only. The phone alerts you 30 minutes before each one, and the time shows in Malaysia time when the phone is set to MYT.</p>
+      <a class="button" href="webcal://sharvin0345.github.io/usd-news-calendar-/usd-news.ics">Add to iPhone Calendar</a>
+      <p>Or add it by hand:</p>
+      <ol class="steps">
+        <li>Open Settings.</li>
+        <li>Tap Calendar.</li>
+        <li>Tap Accounts.</li>
+        <li>Tap Add Account.</li>
+        <li>Tap Other.</li>
+        <li>Tap Add Subscribed Calendar.</li>
+        <li>Paste the link below.</li>
+        <li>Leave Calendar notifications on: Settings, then Notifications, then Calendar, then Allow Notifications.</li>
+      </ol>
+      <code class="feed-url" id="feed-url">https://sharvin0345.github.io/usd-news-calendar-/usd-news.ics</code>
+      <button type="button" class="ghost" id="copy-feed">Copy the link</button>
+      <p class="fine">If the gold button opens a prompt, tap Subscribe. The feed refreshes on its own. Medium-impact events stay on this page and are not in the phone calendar. After you subscribe, keep Calendar notifications switched on or the 30-minute alert will not show.</p>
+    </section>
+
+    <footer>
+      <p id="updated"></p>
+      <p>Not financial advice. Figures are copied from the source. This week uses the <a href="https://www.forexfactory.com/calendar">Forex Factory</a> weekly export. Next week uses <a href="https://www.tradingview.com/economic-calendar/">TradingView</a> when Forex Factory has not published it. The list updates on its own twice a day.</p>
+    </footer>
+  </div>
+  <script src="js/calendar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
