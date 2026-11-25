@@ -1,0 +1,54 @@
+name: Update USD calendar
+
+on:
+  schedule:
+    # 00:15 UTC is 8:15 AM MYT. 12:15 UTC is 8:15 PM MYT, before the 9:30 PM session.
+    - cron: "15 0 * * *"
+    - cron: "15 12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_calendar.py"
+      - "tests/**"
+      - ".github/workflows/update-calendar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-usd-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test calendar builder
+        run: |
+          python3 tests/test_update_calendar.py -v
+          node tests/calendar.test.js
+
+      - name: Fetch sources and regenerate files
+        run: python3 scripts/update_calendar.py
+
+      - name: Commit updated calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/events.json usd-news.ics
+          if git diff --cached --quiet; then
+            echo "No calendar changes to commit."
+            exit 0
+          fi
+          git commit -m "Update USD news calendar"
+          git push
