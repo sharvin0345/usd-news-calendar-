@@ -20,7 +20,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:usd-20261125-4872d81fb11e8423@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261125T213000
 DTEND;TZID=Asia/Kuala_Lumpur:20261125T214500
 SUMMARY:USD: Core PCE Price Index m/m
@@ -40,7 +40,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261125-f2b7dfe9bf16c6e9@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261125T213000
 DTEND;TZID=Asia/Kuala_Lumpur:20261125T214500
 SUMMARY:USD: Prelim GDP q/q
@@ -60,14 +60,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261201-488dc9d900d6781f@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261201T230000
 DTEND;TZID=Asia/Kuala_Lumpur:20261201T231500
 SUMMARY:USD: ISM Manufacturing PMI
-DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 55.2\nPre
- vious: 55.5\nWhat it means for gold: A stronger reading usually lifts the 
- dollar and pushes gold down. A weaker reading can support gold.\nNo new tr
- ades 15-30 minutes before or after this release. Not financial advice.
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 55\nPrevi
+ ous: 55.5\nWhat it means for gold: A stronger reading usually lifts the do
+ llar and pushes gold down. A weaker reading can support gold.\nNo new trad
+ es 15-30 minutes before or after this release. Not financial advice.
 LOCATION:Malaysia time
 URL:https://sharvin0345.github.io/usd-news-calendar-/
 STATUS:CONFIRMED
@@ -80,11 +80,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261201-3339238a573cd85b@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261201T230000
 DTEND;TZID=Asia/Kuala_Lumpur:20261201T231500
 SUMMARY:USD: JOLTs Job Openings
-DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: n/a\nPrev
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 7.5\nPrev
  ious: 7.523\nWhat it means for gold: Stronger-than-forecast USD data usual
  ly lifts the dollar and pushes gold down. Weaker data usually does the opp
  osite.\nNo new trades 15-30 minutes before or after this release. Not fina
@@ -101,11 +101,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261203-15cad2f136927846@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261203T230000
 DTEND;TZID=Asia/Kuala_Lumpur:20261203T231500
 SUMMARY:USD: ISM Services PMI
-DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 54.5\nPre
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 54.6\nPre
  vious: 54.5\nWhat it means for gold: A stronger reading usually lifts the 
  dollar and pushes gold down. A weaker reading can support gold.\nNo new tr
  ades 15-30 minutes before or after this release. Not financial advice.
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261204-ec00d7588061fffa@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261204T213000
 DTEND;TZID=Asia/Kuala_Lumpur:20261204T214500
 SUMMARY:USD: Non Farm Payrolls
@@ -142,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261204-2c627c40a4839c1c@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261204T213000
 DTEND;TZID=Asia/Kuala_Lumpur:20261204T214500
 SUMMARY:USD: Unemployment Rate
@@ -163,11 +163,11 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usd-20261204-73241956ddb138ab@sharvin0345.github.io
-DTSTAMP:20261127T084222Z
+DTSTAMP:20261127T210910Z
 DTSTART;TZID=Asia/Kuala_Lumpur:20261204T230000
 DTEND;TZID=Asia/Kuala_Lumpur:20261204T231500
 SUMMARY:USD: Michigan Consumer Sentiment Prel
-DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 51.8\nPre
+DESCRIPTION:Time: 11:00 PM Malaysia time\nImpact: High\nForecast: 52.5\nPre
  vious: 51\nWhat it means for gold: A stronger reading usually lifts the do
  llar and pushes gold down. A weaker reading can support gold.\nNo new trad
  es 15-30 minutes before or after this release. Not financial advice.
